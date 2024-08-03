@@ -1,0 +1,32 @@
+a{
+    text-decoration: underline !important;
+}
+
+  .hide {
+	display: none;
+  }
+  #progress-bar {
+	position: relative;
+	height: 0.3em;
+	width: 100%;
+	background-color: #6a6666;
+	margin: 1em 0;
+	border-radius: 0.18em;
+	cursor: pointer;
+  }
+  #current-progress {
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: inline-block;
+	height: 100%;
+	width: 20%;
+	background-color: #72a7dc;
+	
+  }
+  
+  button.active i {
+	color: #72a7dc;
+  }
+
+ 
